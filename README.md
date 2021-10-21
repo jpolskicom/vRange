@@ -1,21 +1,21 @@
-# vRange
+# vRange Component
 
 ![demo image](https://github.com/jpolskicom/vRange/blob/main/demo.png?raw=true)
 
 ## Ussage
 
-###1. Install
+### 1. Install
 
 ```
 npm i v-range-component
 ```
 
-###2.Just import module into your component.
+### 2.Just import module into your component.
 Build in styles are not required, but without any styling component will not work as expected.
 
 ```
-    import vRangeSlider from 'v-range'
-    import 'v-range/dist/vRangeSlider.css'
+    import vRangeComponent from 'v-range-component'
+    import 'v-range-component/dist/vRangeSlider.css'
 
 ```
 
