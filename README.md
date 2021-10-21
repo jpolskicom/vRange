@@ -1,8 +1,14 @@
 # vRange
 
-### Ussage
+## Ussage
 
-Just import module into your component.
+###1. Install
+
+```
+npm i v-range-component
+```
+
+###2.Just import module into your component.
 Build in styles are not required, but without any styling component will not work as expected.
 
 ```
@@ -11,11 +17,11 @@ Build in styles are not required, but without any styling component will not wor
 
 ```
 
-### Avaible options: 
+### Avaible options:
 
 | Prop | Type | Default | Description |
 | ---- | ---- | ---- | ---- |
-| value | Array | [0, 100] | Privides initial values |
+| value | Array | [0, 100] | Provides initial values |
 | label | Array | ["from", "to"] | Labels for min,max values |
 | unit | String | 'PLN' | Unit display at input fields |
 | range | Array | [0, 100] | Min-max slider values |
