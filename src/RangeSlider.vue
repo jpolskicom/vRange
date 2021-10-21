@@ -46,7 +46,6 @@
 </template>
 <script>
 export default {
-  components: { Input },
   data() {
     return {
       slider: null,
@@ -254,7 +253,7 @@ export default {
     this.sliderBar = this.slider.querySelector(".c-rangeSlider__bar");
     this.sliderHandlers = this.slider.querySelectorAll(".c-rangeSlider__handle");
     this.sliderInputs = this.slider.querySelectorAll(".c-rangeSlider__input");
-    
+
     this.initHandlesPositions();
 
     this.addEventsToHandlers();

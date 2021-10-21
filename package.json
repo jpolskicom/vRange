@@ -24,7 +24,7 @@
   "files": [
     "dist/*"
   ],
-  "main": "./dist/range-slider.umd.js",
+  "main": "./dist/vRangeSlider.umd.js",
   "devDependencies": {
     "@vue/cli": "^4.5.14",
     "sass-loader": "^10",
