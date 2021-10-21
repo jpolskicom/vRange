@@ -1,6 +1,6 @@
 # vRange
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/demo.png?raw=true)
+![demo image](https://github.com/jpolskicom/vRange/blob/main/demo.png?raw=true)
 
 ## Ussage
 
