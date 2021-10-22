@@ -91,30 +91,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "e398");
+/******/ 	return __webpack_require__(__webpack_require__.s = "fe4d");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "6b8a":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ "cac4":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_index_js_vue_loader_options_RangeSlider_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6b8a");
-/* harmony import */ var _C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_index_js_vue_loader_options_RangeSlider_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_C_Users_Jacek_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_index_js_vue_loader_options_RangeSlider_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
-/***/ "cd92":
+/***/ "c5ab":
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// addapted from the document.currentScript polyfill by Adam Miller
@@ -199,7 +181,25 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "e398":
+/***/ "cac4":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_index_js_vue_loader_options_RangeSlider_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e037");
+/* harmony import */ var _C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_index_js_vue_loader_options_RangeSlider_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_C_Users_webwizards_AppData_Roaming_npm_node_modules_vue_cli_service_node_modules_vue_loader_lib_index_js_vue_loader_options_RangeSlider_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
+/***/ "e037":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "fe4d":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -209,13 +209,13 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, "RangeSlider", function() { return /* reexport */ RangeSlider; });
 
-// CONCATENATED MODULE: C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
+// CONCATENATED MODULE: C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
 
 if (typeof window !== 'undefined') {
   var currentScript = window.document.currentScript
   if (true) {
-    var getCurrentScript = __webpack_require__("cd92")
+    var getCurrentScript = __webpack_require__("c5ab")
     currentScript = getCurrentScript()
 
     // for backward compatibility, because previously we directly included the polyfill
@@ -233,16 +233,16 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23ddab5b-vue-loader-template"}!C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib??vue-loader-options!./src/RangeSlider.vue?vue&type=template&id=05bac257&
+// CONCATENATED MODULE: C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"63ee5cb4-vue-loader-template"}!C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib??vue-loader-options!./src/RangeSlider.vue?vue&type=template&id=191a2726&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"rangeSlider",staticClass:"c-rangeSlider"},[_c('div',{staticClass:"c-rangeSlider__labelFrom"},[_vm._v(" "+_vm._s(_vm.label[0])+" ")]),_c('div',{staticClass:"c-rangeSlider__wrap"},[_c('div',{staticClass:"c-rangeSlider__track"}),_c('div',{staticClass:"c-rangeSlider__bar"}),_c('div',{staticClass:"c-rangeSlider__mid",style:({ left: ((_vm.params.middlePrecentage) + "%") })}),_vm._l((_vm.value),function(handle,key){return [_c('div',{key:("h" + key),staticClass:"c-rangeSlider__handle",attrs:{"draggable":"false"}}),_c('div',{key:("i" + key),staticClass:"c-rangeSlider__handleInput"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.params.inputValue[key]),expression:"params.inputValue[key]"}],attrs:{"type":"number","min":key - 1 < !0 ? _vm.params.values[key - 1] : _vm.range[0],"max":key + 1 < _vm.params.inputValue.length
               ? _vm.params.values[key + 1]
               : _vm.range[1]},domProps:{"value":(_vm.params.inputValue[key])},on:{"input":[function($event){if($event.target.composing){ return; }_vm.$set(_vm.params.inputValue, key, $event.target.value)},function($event){return _vm.setHandleByInput()}]}}),_vm._v(" "+_vm._s(_vm.unit)+" ")])]}),(_vm.showSteps)?_c('div',{staticClass:"c-rangeSlider__steps"},_vm._l((_vm.steps),function(step){return _c('div',{key:("step" + step),staticClass:"c-rangeSlider__step"})}),0):_vm._e()],2),_c('div',{staticClass:"c-rangeSlider__labelTo"},[_vm._v(" "+_vm._s(_vm.label[1])+" ")])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/RangeSlider.vue?vue&type=template&id=05bac257&
+// CONCATENATED MODULE: ./src/RangeSlider.vue?vue&type=template&id=191a2726&
 
-// CONCATENATED MODULE: C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib??vue-loader-options!./src/RangeSlider.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib??vue-loader-options!./src/RangeSlider.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -291,7 +291,6 @@ var staticRenderFns = []
 //
 
 /* harmony default export */ var RangeSlidervue_type_script_lang_js_ = ({
-  components: { Input },
   data() {
     return {
       slider: null,
@@ -499,7 +498,7 @@ var staticRenderFns = []
     this.sliderBar = this.slider.querySelector(".c-rangeSlider__bar");
     this.sliderHandlers = this.slider.querySelectorAll(".c-rangeSlider__handle");
     this.sliderInputs = this.slider.querySelectorAll(".c-rangeSlider__input");
-    
+
     this.initHandlesPositions();
 
     this.addEventsToHandlers();
@@ -511,7 +510,7 @@ var staticRenderFns = []
 // EXTERNAL MODULE: ./src/RangeSlider.vue?vue&type=style&index=0&lang=scss&
 var RangeSlidervue_type_style_index_0_lang_scss_ = __webpack_require__("cac4");
 
-// CONCATENATED MODULE: C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib/runtime/componentNormalizer.js
+// CONCATENATED MODULE: C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
 // IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
@@ -634,7 +633,7 @@ var component = normalizeComponent(
 /* harmony default export */ var RangeSlider = (component.exports);
 // CONCATENATED MODULE: ./src/index.js
 
-// CONCATENATED MODULE: C:/Users/Jacek/AppData/Roaming/npm/node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
+// CONCATENATED MODULE: C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
 
 
 
