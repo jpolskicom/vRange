@@ -1,1 +1,1 @@
-export { default as RangeSlider } from "./RangeSlider.vue";
+export { default as vRangeSlider } from "./RangeSlider.vue";

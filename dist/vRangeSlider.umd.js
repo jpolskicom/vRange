@@ -207,7 +207,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "RangeSlider", function() { return /* reexport */ RangeSlider; });
+__webpack_require__.d(__webpack_exports__, "vRangeSlider", function() { return /* reexport */ RangeSlider; });
 
 // CONCATENATED MODULE: C:/Users/webwizards/AppData/Roaming/npm/node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
