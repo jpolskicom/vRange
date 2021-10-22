@@ -15,7 +15,7 @@ Build in styles are not required, but without any styling component will not wor
 
 ```
     import vRangeComponent from 'v-range-component'
-    import 'v-range-component/dist/vRangeSlider.css'
+    import 'v-range-component/dist/vRangeComponent.css'
 
 ```
 
