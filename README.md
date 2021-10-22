@@ -14,8 +14,8 @@ npm i v-range-component
 Build in styles are not required, but without any styling component will not work as expected.
 
 ```
-    import vRangeComponent from 'v-range-component'
-    import 'v-range-component/dist/vRangeComponent.css'
+    import VRangeComponent from 'v-range-component'
+    import 'v-range-component/dist/styles.css'
 
 ```
 
