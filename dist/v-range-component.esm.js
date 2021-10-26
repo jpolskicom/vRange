@@ -362,7 +362,11 @@ var __vue_render__ = function() {
         return [
           _c(
             "div",
-            { key: "i" + key, class: "c-rangeSlider__handleInput--" + key },
+            {
+              key: "i" + key,
+              class:
+                "c-rangeSlider__handleInput c-rangeSlider__handleInput--" + key
+            },
             [
               _c("input", {
                 directives: [

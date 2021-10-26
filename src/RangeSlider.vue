@@ -5,7 +5,7 @@
     </div>
 
     <template v-for="(handle, key) in value">
-      <div :class="`c-rangeSlider__handleInput--${key}`" :key="`i${key}`">
+      <div :class="`c-rangeSlider__handleInput c-rangeSlider__handleInput--${key}`" :key="`i${key}`">
         <input
           type="number"
           v-model="params.inputValue[key]"
