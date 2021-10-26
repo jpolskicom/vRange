@@ -99,7 +99,7 @@ export default {
     logarithmic: {
       type: Boolean,
       default: () => false,
-    },
+    }
   },
   computed: {
     steps() {
@@ -227,7 +227,7 @@ export default {
           this.timer = null;
         }
         this.timer = setTimeout(() => {
-          this.$emit("change", Object.values(this.params.values));
+          this.$emit("change", Object.values(this.params.inputValue));
         }, this.lazy);
       },
       deep: true,

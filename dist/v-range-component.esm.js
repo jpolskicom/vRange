@@ -99,7 +99,7 @@ var script = {
     logarithmic: {
       type: Boolean,
       default: function () { return false; },
-    },
+    }
   },
   computed: {
     steps: function steps() {
@@ -231,7 +231,7 @@ var script = {
           this.timer = null;
         }
         this.timer = setTimeout(function () {
-          this$1.$emit("change", Object.values(this$1.params.values));
+          this$1.$emit("change", Object.values(this$1.params.inputValue));
         }, this.lazy);
       },
       deep: true,
