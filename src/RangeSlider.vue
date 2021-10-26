@@ -3,6 +3,24 @@
     <div class="c-rangeSlider__labelFrom">
       {{ label[0] }}
     </div>
+
+    <template v-for="(handle, key) in value">
+      <div class="c-rangeSlider__handleInput" :key="`i${key}`">
+        <input
+          type="number"
+          v-model="params.inputValue[key]"
+          v-on:input="setHandleByInput()"
+          :min="key - 1 < !0 ? params.values[key - 1] : range[0]"
+          :max="
+            key + 1 < params.inputValue.length
+              ? params.values[key + 1]
+              : range[1]
+          "
+        />
+        {{ unit }}
+      </div>
+    </template>
+
     <div class="c-rangeSlider__wrap">
       <div class="c-rangeSlider__track"></div>
       <div class="c-rangeSlider__bar"></div>
@@ -16,20 +34,6 @@
           :key="`h${key}`"
           draggable="false"
         ></div>
-        <div class="c-rangeSlider__handleInput" :key="`i${key}`">
-          <input
-            type="number"
-            v-model="params.inputValue[key]"
-            v-on:input="setHandleByInput()"
-            :min="key - 1 < !0 ? params.values[key - 1] : range[0]"
-            :max="
-              key + 1 < params.inputValue.length
-                ? params.values[key + 1]
-                : range[1]
-            "
-          />
-          {{ unit }}
-        </div>
       </template>
       <div class="c-rangeSlider__steps" v-if="showSteps">
         <div
@@ -271,6 +275,7 @@ $gray: #676767;
   align-items: center;
   width: 100%;
   margin-top: 1.5rem;
+  position: relative;
   &__labelFrom,
   &__labelTo {
     padding: 0.25rem 0.5rem;
