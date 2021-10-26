@@ -77,7 +77,7 @@
   justify-content: center;
   align-items: center;
 }
-.c-rangeSlider__handleInput:last-of-type {
+.c-rangeSlider__handleInput--1 {
   right: 0;
   left: auto;
 }

@@ -5,7 +5,7 @@
     </div>
 
     <template v-for="(handle, key) in value">
-      <div class="c-rangeSlider__handleInput" :key="`i${key}`">
+      <div :class="`c-rangeSlider__handleInput--${key}`" :key="`i${key}`">
         <input
           type="number"
           v-model="params.inputValue[key]"
@@ -347,7 +347,7 @@ $gray: #676767;
     display: flex;
     justify-content: center;
     align-items: center;
-    &:last-of-type {
+    &--1 {
       right: 0;
       left: auto;
     }
