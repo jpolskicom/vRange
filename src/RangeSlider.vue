@@ -10,6 +10,7 @@
           type="number"
           v-model="params.inputValue[key]"
           v-on:input="setHandleByInput()"
+          :step="step"
           :min="key - 1 < !0 ? params.values[key - 1] : range[0]"
           :max="
             key + 1 < params.inputValue.length

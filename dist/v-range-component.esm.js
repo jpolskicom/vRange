@@ -48,6 +48,7 @@
 //
 //
 //
+//
 
 var script = {
   data: function data() {
@@ -379,6 +380,7 @@ var __vue_render__ = function() {
                 ],
                 attrs: {
                   type: "number",
+                  step: _vm.step,
                   min: key - 1 < !0 ? _vm.params.values[key - 1] : _vm.range[0],
                   max:
                     key + 1 < _vm.params.inputValue.length
