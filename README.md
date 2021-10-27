@@ -29,5 +29,7 @@ Build in styles are not required, but without any styling component will not wor
 | range | Array | [0, 100] | Min-max slider values |
 | step | Number | 1 | Number of steps between min-max values |
 | showSteps | Boolean | false | That option generates div for each step that may be used for show track step points |
+| showInputs | Boolean | true | Show input fields |
+| stepsArray | Array | [] | Steps values. As default will generate array from 'step' and max range value |
 | lazy | Number | 500 | Delay (ms) before emit value by component after change |
 | logarithmic | Boolean | false| Makes values growth logarithmic |
