@@ -4,8 +4,8 @@
       {{ label[0] }}
     </div>
 
-    <template v-for="(handle, key) in value">
-      <div :class="`c-rangeSlider__handleInput c-rangeSlider__handleInput--${key}`" :key="`i${key}`">
+    <template v-if="showInputs">
+      <div v-for="(handle, key) in value" :class="`c-rangeSlider__handleInput c-rangeSlider__handleInput--${key}`" :key="`i${key}`">
         <input
           type="number"
           v-model="params.inputValue[key]"
@@ -89,6 +89,10 @@ export default {
       type: Number,
       default: () => 1,
     },
+    showInputs: {
+      type: Boolean,
+      default: () => true,
+    },
     showSteps: {
       type: Boolean,
       default: () => false,
@@ -158,16 +162,17 @@ export default {
     getPrecentageFromValue(value) {
       let val = false
         ? Math.round(value * (Math.log(value + 1) / Math.log(this.range[1])))
-        : Math.round((100 * value) / this.range[1]);
+        : Math.round((100 * value) / (this.range[1]));
+      val = val - Math.round((100 * this.range[0]) / (this.range[1]));
 
       return val;
     },
     getValue(precentage) {
       let val = this.logarithmic
-        ? Math.round(precentage * (Math.log(precentage + 1) / Math.log(100)))
+        ? Math.round(precentage * (Math.log(precentage) / Math.log(100)))
         : precentage;
 
-      return Math.round(this.range[1] * (val / this.steps));
+      return Math.round((this.range[1] * (val / this.steps)) +  this.range[0]);
     },
     setHandleByInput() {
       this.params.inputValue.forEach((e, k) => {
@@ -241,6 +246,7 @@ export default {
         ) {
           return;
         }
+        console.log('test',this.value);
         this.initHandlesPositions();
       },
       deep: true,
